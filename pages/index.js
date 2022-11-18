@@ -856,13 +856,13 @@ useEffect(() => {
             </div>
             <br />
             <div style={{position:"relative", display: "inline-block", top: '0px'}}>
-            Early Years Foundation Stage (EYFS, a British Curriculum for  ages 0 - 5 years).
+            EYFS.
             </div>
           </h2>
           <div className="spacer h2"></div>
           <div className="p">
             <div className="p-inner" >
-            Our core focus is to work with children whose ages range from 2 - 5 years and are living with Autism and or speech delay.
+            Our core focus is to work with children whose ages range from 2 - 5 years and are living with Autism and or speech delay. This was inspired by EYFS (EYFS, a British Curriculum for  ages 0 - 5 years)
             </div>
           </div>
         </div>
