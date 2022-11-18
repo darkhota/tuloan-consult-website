@@ -917,7 +917,7 @@ useEffect(() => {
                  </p> 
                  <p className="footer-text p"><span>Ikeja</span> · <span>Lagos</span> · <span>+234 (0) 80 660 604 40</span> · <a href="mailto:%70%6f%73%74@%65%6d%6d%61%61%70%66%65%6c.%64%65" rel="nofollow">tioluwanipatricia@gmail.com</a> · <a href="#" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></p> </div> </div> <div className="footer-nav"> <nav className="hoverLine defaultCursor"> 
                  {/* <a href="/en/impressum" data-id="imprint">Imprint</a>  */}
-                 <a href="#" data-id="privacy">Privacy</a> </nav> </div> </footer>
+                  </nav> </div> </footer>
     </div>
 
     <a href="#" className="mod-logo">
