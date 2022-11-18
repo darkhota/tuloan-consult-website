@@ -76,7 +76,7 @@ export default function Contact() {
         id="contactForm"
         className="col s12 xl7 pull-xl4 defaultCursor_ nopad"
         method="post"
-        novalidate=""
+        noValidate=""
       >
         {" "}
         <div className="row">
@@ -100,7 +100,7 @@ export default function Contact() {
               id="email"
               type="email"
               placeHolder="email"
-              class="validate"
+              className="validate"
               required
               onChange={updateFormControl}
               value={formState?.email}
@@ -113,7 +113,7 @@ export default function Contact() {
               id="tel"
               type="text"
               placeHolder="phone"
-              class="validate"
+              className="validate"
               required
               onChange={updateFormControl}
               value={formState?.tel}
@@ -134,10 +134,10 @@ export default function Contact() {
           </div>
         </div>
         <br />
-        <div class="col s12 l4 submit-btn-col">
+        <div className="col s12 l4 submit-btn-col">
           <button
             type="submit"
-            class="btn submit-btn p"
+            className="btn submit-btn p"
             value="Submit now"
             data-reset="Submit now"
             data-loading="Please wait"
