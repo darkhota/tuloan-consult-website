@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import SplitText from './plugins/SplitTextPlugin.min.js'
-import drawSVG from './plugins/DrawSVGPlugin.min.js'
+import SplitText from '../components/plugins/SplitTextPlugin.min.js';
+import drawSVG from '../components/plugins/DrawSVGPlugin.min.js'
 // import { Swiper, SwiperSlide } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
