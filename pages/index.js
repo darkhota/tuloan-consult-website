@@ -520,10 +520,11 @@ useEffect(() => {
                   aria-label="1 / 6"
                   style={{width: "1479px"}}
                 >
-                  <img
+                  <Image
                     data-swiper-parallax-x="70%"
                     src="/Noel1.jpeg"
-                    alt="Kita Emma Apfel 10"
+                    layout="fill"
+                    alt="kids"
                     style={{transition: "all 0ms ease 0s"}}
                   />
                 </SwiperSlide>
@@ -534,10 +535,11 @@ useEffect(() => {
                   aria-label="2 / 6"
                   style={{width: "1479px"}}
                 >
-                  <img
+                  <Image
                     data-swiper-parallax-x="70%"
                     src="/mumkids1.jpg"
-                    alt="Kita Emma Apfel 10"
+                    layout="fill"
+                    alt="kids"
                     style={{transition: "all 0ms ease 0s"}}
                   />
                 </SwiperSlide>
@@ -548,10 +550,11 @@ useEffect(() => {
                   aria-label="3 / 6"
                   style={{width: "1479px"}}
                 >
-                  <img
+                  <Image
                     data-swiper-parallax-x="70%"
-                    src="mumkids2.jpg"
-                    alt="Kita Emma Apfel 10"
+                    src="/mumkids2.jpg"
+                    layout="fill"
+                    alt="kids"
                     style={{transition: "all 0ms ease 0s"}}
                   />
                 </SwiperSlide>
@@ -562,10 +565,11 @@ useEffect(() => {
                   aria-label="4 / 6"
                   style={{width: "1479px"}}
                 >
-                  <img
+                  <Image
                     data-swiper-parallax-x="70%"
-                    src="Noel2.jpg"
-                    alt="Kita Emma Apfel 10"
+                    src="/Noel2.jpg"
+                    layout="fill"
+                    alt="kids"
                     style={{transition: "all 0ms ease 0s"}}
                   />
                 </SwiperSlide>
@@ -576,11 +580,12 @@ useEffect(() => {
                   aria-label="5 / 6"
                   style={{width: "1479px"}}
                 >
-                  <img
+                  <Image
                     data-swiper-parallax-x="70%"
-                    src="https://www.emmaapfel.de/files/generate/600/1618989022_08_Kita_EMMAAPFEL.jpg"
-                    alt="Kita Emma Apfel 10"
-                    style={{transition: "all 0ms ease 0s"}}
+                    src="/Noel1.jpeg"
+                    layout="fill"
+                    alt="kids"
+                    style={{transition: "all 0ms ease 0s", layout: "fill"}}
                   />
                 </SwiperSlide>
                 <SwiperSlide
@@ -590,11 +595,12 @@ useEffect(() => {
                   aria-label="6 / 6"
                   style={{width: "1479px"}}
                 >
-                  <img
+                  <Image
                     data-swiper-parallax-x="70%"
-                    src="https://www.emmaapfel.de/files/generate/600/1613126642_07_Kita_EMMAAPFEL.jpg"
-                    alt="Kita Emma Apfel 10"
-                    style={{transition: "all 0ms ease 0s"}}
+                    src="/mumkids1.jpg"
+                    alt="kids"
+                    layout = "fill"
+                    style={{transition: "all 0ms ease 0s", layout: "fill"}}
                   />
                 </SwiperSlide>
                 ...
@@ -904,7 +910,7 @@ useEffect(() => {
       <footer className="footer fullpage" data-cursor="blue"> 
       <div id="footer-bg" className="footer-bg play_ bgcolor-rose"></div> 
       <div className="footer-centerbox"> <div className="footer-box">
-         <img className="footer-logo" src="/logo-b.svg" alt="Emma Apfel Logo"/> 
+         <Image className="footer-logo" src="/logo-b.svg" height="220px" width="220px" alt="Logo"/> 
          <h2 className="h1 footer-logo-name">TULOAN CONSULTS</h2> 
          <p className="h2 footer-logo-text">
          In a serene environment. <br /> Inspired by EYFS British Curriculum
@@ -915,14 +921,18 @@ useEffect(() => {
     </div>
 
     <a href="#" className="mod-logo">
-      <img
+      <Image
         src="/logo-b.svg"
         alt="logo"
+        width="90px"
+        height="90px"
         className="logo-icon"
       />
-      <img
+      <Image
         src="/Untitled-6.svg"
         alt="logo"
+        width="90px"
+        height="90px"
         className="logo-text"
       />
     </a>
